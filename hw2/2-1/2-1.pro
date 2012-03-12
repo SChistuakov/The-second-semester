@@ -16,8 +16,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    LinkedList.cpp
+    LinkedList.cpp \
+    ArrayList.cpp
 
 HEADERS += \
     list.h \
-    LinkedList.h
+    LinkedList.h \
+    ArrayList.h
