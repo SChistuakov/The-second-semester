@@ -1,6 +1,7 @@
 #ifndef MOVE_H
 #define MOVE_H
 #pragma once
+
 #include <QWidget>
 
 namespace Ui {
