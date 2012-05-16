@@ -16,10 +16,10 @@ TEMPLATE = app
 
 
 SOURCES += \
-    BubbleS.cpp \
-    QSort.cpp
+    BubbleSorter.cpp \
+    QSorter.cpp
 
 HEADERS += \
-    Sorting.h \
-    BubbleS.h \
-    QSort.h
+    bubblesorter \
+    qsorter \
+    sorter
