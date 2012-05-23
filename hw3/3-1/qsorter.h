@@ -2,10 +2,13 @@
 #define QSorter_H
 
 #pragma once
-#include "sorter"
+#include "sorter.h"
 
 class QSorter : public Sorter
 {
+    /**
+      Class, using QSort
+      */
     public:
         void sort(int a[], int n)
         {

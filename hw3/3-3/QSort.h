@@ -7,6 +7,9 @@
 
 class QSort : public Sorting
 {
+    /**
+      Class, using QSort to sort
+      */
 public:
     int **sort(int **array, int length);
 private:

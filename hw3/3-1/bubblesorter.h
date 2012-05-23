@@ -2,10 +2,13 @@
 #define BubbleSorter_H
 
 #pragma once
-#include "sorter"
+#include "sorter.h"
 
 class BubbleSorter : public Sorter
 {
+    /**
+      Class, using Bubble Sort
+      */
     public:
         void sort(int a[], int n);
     protected:

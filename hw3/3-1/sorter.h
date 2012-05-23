@@ -5,6 +5,9 @@
 
 class Sorter
 {
+    /**
+      Base class with virtual void Sort
+      */
     public:
         virtual void sort(int a[], int n) = 0;
     protected:

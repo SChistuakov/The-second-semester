@@ -1,4 +1,4 @@
-#include "qsorter"
+#include "qsorter.h"
 
 void QSorter::qSort(int a[], int left, int right)
 {

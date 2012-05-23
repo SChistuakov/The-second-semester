@@ -15,6 +15,7 @@ public:
       *@ param int - length of array is passed to print
       */
     void virtual print(int**, int) = 0;
+    virtual ~Printer() {}
 protected:
     /// Function that goes in a spiral and writes in string
     string toString(int**, int);

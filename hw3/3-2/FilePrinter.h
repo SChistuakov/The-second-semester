@@ -6,6 +6,9 @@
 
 class FilePrinter : public Printer
 {
+    /**
+      Class, that is used to print to file
+      */
 public:
     void print(int **, int);
 private:

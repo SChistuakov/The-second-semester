@@ -20,6 +20,6 @@ SOURCES += \
     QSorter.cpp
 
 HEADERS += \
-    bubblesorter \
-    qsorter \
-    sorter
+    bubblesorter.h \
+    qsorter.h \
+    sorter.h

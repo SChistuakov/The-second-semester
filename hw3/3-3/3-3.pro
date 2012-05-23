@@ -10,15 +10,19 @@ QT       -= gui
 
 TARGET = 3-3
 CONFIG   += console
+CONFIG   += qtestlib
 CONFIG   -= app_bundle
 
 TEMPLATE = app
 
 
-SOURCES += main.cpp \
+SOURCES += \
     Sorting.cpp \
     QSort.cpp
 
 HEADERS += \
     Sorting.h \
-    QSort.h
+    QSort.h \
+    QSortTest.h
+
+
