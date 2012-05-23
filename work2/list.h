@@ -8,7 +8,6 @@ public:
     virtual void remove(int val) = 0;
     virtual bool exist(int val) = 0;
     virtual int length() = 0;
-    virtual ~List();
 };
 
 #endif // LIST_H
